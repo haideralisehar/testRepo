@@ -4,9 +4,7 @@
   "private": true,
   "scripts": {
 
-  "dev": "next dev",
   "build": "next build",
-  "postbuild": "ls -la .next/standalone",
   "start": "node .next/standalone/server.js"
 },
 
