@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+
   "dev": "next dev",
   "build": "next build",
   "postbuild": "ls -la .next/standalone",
   "start": "node .next/standalone/server.js"
 },
+
+  
   "dependencies": {
     "next": "^15.5.7",
     "react": "19.1.0",
